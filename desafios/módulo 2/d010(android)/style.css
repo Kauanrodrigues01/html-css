@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/idroid.otf")format(opentype);
+}
+body{
+    margin: 0px;
+    background-color: #E9E6C3;
+}
+header{
+    background-image: linear-gradient(to bottom, #3CDA83, #1A5C38);
+    padding: 20px;
+    color: white;
+}
+main{
+    margin: 0px;
+}
+header > nav > a{
+    color: #84caa3;
+    margin: 4px;
+    font-size: 2em;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: #3a885f;
+    padding: 8px;
+    border-radius: 5px;
+}
+main > section > p > a{
+    background-color: #85dcac;
+    color: #1A5C38;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+main > section > p > a:hover{
+    text-decoration: underline;
+}
+h1, h2{
+    font-family: "idroid", 'Times New Roman', Times, serif;
+    color: #2D6949;
+    font-size: 2em;
+}
+h2{
+    background-image: linear-gradient(to right, #80E3B0, #FBFFFB );
+    padding: 5px;
+}
+h1#titulo-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 2.5em;
+}
+div#conteudo{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 1px 50px;
+}
+section#espaço-video{
+    background-color: #1A5C38;
+    padding: 30px 0px 30px 0px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+section#extra{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+}
+div#extra-conteudo{
+    padding: 0px 15px;
+    padding-bottom: 10px;
+}
+div#esquerdo{
+    display: inline-block;
+}
+div#direito{
+    display: inline-block;
+}
+h3{
+    background-color: #2FA866;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 2em;
+}
+.underline{
+    text-decoration: underline;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+p{
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.centralizado{
+    text-align: center;
+}
+.sub-titulo{
+    color: #93C0A7;
+}
+.destaque{
+    color: #1A5C38;
+    font-weight: 900;
+}
+.remov-margin-bottom{
+    margin-bottom: 0px;
+}
+img{
+    margin: auto;
+    display: block;
+}
+footer{
+    background-color: #1A5C38;
+    margin: 0px;
+    display: block;
+}
+footer > p{
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+}
