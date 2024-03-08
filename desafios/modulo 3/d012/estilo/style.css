@@ -46,7 +46,7 @@
 
         section#imagem1{
             width: 100%;
-            background-image: url("imagens/background001.jpg");
+            background-image: url("../imagens/background001.jpg");
             background-repeat: no-repeat;
             background-position: right center;
             background-size: cover;
@@ -72,7 +72,7 @@
 
         section#imagem2{
             width: 100%;
-            background-image: url("imagens/background002.jpg");
+            background-image: url("../imagens/background002.jpg");
             background-repeat: no-repeat;
             background-position: right center;
             background-size: cover;
