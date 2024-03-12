@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio colunas com colgroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 2px solid black;
+        }
+
+        .destaque{
+            background-color: chartreuse;
+        }
+
+        col.cnome{
+            background-color: chartreuse;
+        }
+
+        col.csexo {
+            background-color: yellow;
+        }
+
+        col.grupo{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="grupo" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>Mulher</td>
+                <td>45</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Mulher</td>
+                <td>45</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Mulher</td>
+                <td>45</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Mulher</td>
+                <td>45</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Mulher</td>
+                <td>45</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Mulher</td>
+                <td>45</td>
+                <td>Professora</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
